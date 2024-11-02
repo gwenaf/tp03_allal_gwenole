@@ -1,0 +1,18 @@
+<div class="product-list">
+  <h2>Liste des Produits</h2>
+
+  <!--Moteur de recherche-->
+  <app-product-search (searchCriteriaChanged)="onSearchCriteriaChanged($event)"></app-product-search>
+
+
+  <ul>
+    <li *ngFor="let product of filteredProducts">
+      <h3>{{ product.name }}</h3>
+      <p>Catégorie: {{ product.category }}</p>
+      <p>Prix: {{ product.price | currency }}</p>
+      <p>Description: {{ product.description }}</p>
+      <img [src]="product.imageUrl" alt="{{ product.name }}" width="150">
+      <hr />
+    </li>
+  </ul>
+</div>

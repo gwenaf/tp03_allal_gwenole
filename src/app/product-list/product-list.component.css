@@ -1,0 +1,13 @@
+.product-list {
+  max-width: 600px;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 5px;
+}

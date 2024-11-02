@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Ordinateur Portable",
+    "description": "Un ordinateur portable performant pour le travail et le divertissement.",
+    "price": 1200,
+    "imageUrl": "https://via.placeholder.com/150",
+    "quantity": 15,
+    "category": "Informatique",
+    "createdDate": "2023-01-15T00:00:00Z",
+    "updatedDate": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "Un smartphone de dernière génération avec toutes les fonctionnalités modernes.",
+    "price": 800,
+    "imageUrl": "https://via.placeholder.com/150",
+    "quantity": 30,
+    "category": "Téléphonie",
+    "createdDate": "2023-02-10T00:00:00Z",
+    "updatedDate": "2024-01-05T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Casque Audio",
+    "description": "Casque audio de haute qualité pour une expérience sonore immersive.",
+    "price": 150,
+    "imageUrl": "https://via.placeholder.com/150",
+    "quantity": 50,
+    "category": "Audio",
+    "createdDate": "2023-03-20T00:00:00Z",
+    "updatedDate": "2024-01-10T00:00:00Z"
+  }
+]

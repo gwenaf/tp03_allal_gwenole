@@ -1,0 +1,32 @@
+<div class="search-box">
+  <input type="text"
+         placeholder="Rechercher par nom..."
+         [(ngModel)]="searchCriteria.name"
+         (input)="onSearchCriteriaChanged()" />
+  <input type="text"
+         placeholder="Rechercher par catégorie..."
+         [(ngModel)]="searchCriteria.category"
+         (input)="onSearchCriteriaChanged()" />
+  <input type="text"
+         placeholder="Rechercher par description..."
+         [(ngModel)]="searchCriteria.description"
+         (input)="onSearchCriteriaChanged()" />
+
+  <input type="number"
+         placeholder="Prix minimum"
+         [(ngModel)]="searchCriteria.minPrice"
+         (input)="onSearchCriteriaChanged()" />
+  <input type="number"
+         placeholder="Prix maximum"
+         [(ngModel)]="searchCriteria.maxPrice"
+         (input)="onSearchCriteriaChanged()" />
+
+  <input type="date"
+         placeholder="Date de création minimale"
+         [(ngModel)]="searchCriteria.minDate"
+         (input)="onSearchCriteriaChanged()" />
+  <input type="date"
+         placeholder="Date de création maximale"
+         [(ngModel)]="searchCriteria.maxDate"
+         (input)="onSearchCriteriaChanged()" />
+</div>
